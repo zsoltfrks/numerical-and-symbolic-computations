@@ -1,7 +1,7 @@
 # Közelítő és szimbolikus számítások (BSc)
 
 > [!WARNING]
-> A jegyzetek mesterséges intelligencia (Claude Opus 4.8) segítségével lettek finomítva, ezért előfordulhatnak hibák. Kizárólag saját felelősségre használd, én semmilyen felelősséget nem vállalok érte!
+> A jegyzetek mesterséges intelligencia (Claude Opus 4.8) segítségével lettek finomítva, ezért előfordulhatnak hibák. Kizárólag saját felelősségre használd!
 
 ## Tartalomjegyzék
 
