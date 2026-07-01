@@ -1,7 +1,36 @@
-# Numerical and symbolic computations
-
-> [!NOTE]
-> Notes for applied and theoritical topics in numerical and symbolic computations. All of the documents will be written in Hungarian and I am not planning to do any localization on my own.
+# Közelítő és szimbolikus számítások (BSc)
 
 > [!WARNING]
-> I validated and refactored each topic via Claude Opus (ultracode effort) so mistakes can still be present across the PDFs. Use it at your own risk. I managed to get a 70% grade on the exam with these myself.
+> A jegyzetek mesterséges intelligencia (Claude Opus 4.8) segítségével lettek finomítva, ezért előfordulhatnak hibák. Saját felelősségre használd.
+
+## Tartalomjegyzék
+
+1. [A számítógépes hiba különböző fajtái](PDF/01%20A%20sz%C3%A1m%C3%ADt%C3%B3g%C3%A9pes%20hiba%20k%C3%BCl%C3%B6nb%C3%B6z%C5%91%20fajt%C3%A1i.pdf)
+2. [Számítógépes számábrázolás és kerekítés](PDF/02%20Sz%C3%A1m%C3%ADt%C3%B3g%C3%A9pes%20sz%C3%A1m%C3%A1br%C3%A1zol%C3%A1s%20%C3%A9s%20kerek%C3%ADt%C3%A9s.pdf)
+3. [Numerikus stabilitás, a hiba továbbterjedése, kondíciószám](PDF/03%20Numerikus%20stabilit%C3%A1s%2C%20a%20hiba%20tov%C3%A1bbterjed%C3%A9se%2C%20kond%C3%ADci%C3%B3sz%C3%A1m.pdf)
+4. [Intervallum aritmetika](PDF/04%20Intervallum%20aritmetika.pdf)
+5. [Automatikus differenciálás](PDF/05%20Automatikus%20differenci%C3%A1l%C3%A1s.pdf)
+6. [Lineáris egyenletrendszerek megoldása Gauss eliminációval](PDF/06%20Line%C3%A1ris%20egyenletrendszerek%20megold%C3%A1sa%20Gauss%20elimin%C3%A1ci%C3%B3val.pdf)
+7. [LU felbontás, eliminációs mátrixok, főelemkiválasztás](PDF/07%20LU%20felbomt%C3%A1s%2C%20elimin%C3%A1ci%C3%B3s%20m%C3%A1trixok%2C%20f%C5%91elemkiv%C3%A1laszt%C3%A1s.pdf)
+8. [Mátrixinvertálás, mátrixnormák, mátrixok kondíciószáma](PDF/08%20M%C3%A1trixinvert%C3%A1l%C3%A1s%2C%20m%C3%A1trixnorm%C3%A1k%2C%20m%C3%A1trixok%20kond%C3%ADci%C3%B3sz%C3%A1ma.pdf)
+9. [Cholesky felbontás, QR ortogonális felbontás](PDF/09%20Cholesky%20felbomt%C3%A1s%2C%20QR%20ortogon%C3%A1lis%20felbomt%C3%A1s.pdf)
+10. [Mátrixok sajátértékei, sajátvektorai, a sajátértékek korlátai, a hatványmódszer](PDF/10%20M%C3%A1trixok%20saj%C3%A1t%C3%A9rt%C3%A9kei%2C%20saj%C3%A1tvektorai%2C%20a%20saj%C3%A1t%C3%A9rt%C3%A9kek%20korl%C3%A1tai%2C%20a%20hatv%C3%A1nym%C3%B3dszer.pdf)
+11. [A mátrixok típusai, hasonlósági transzformáció](PDF/11%20A%20m%C3%A1trixok%20t%C3%ADpusai%2C%20hasonl%C3%B3s%C3%A1gi%20transzform%C3%A1ci%C3%B3.pdf)
+12. [A sajátértékek és a sajátvektorok kondícionáltsága](PDF/12%20A%20saj%C3%A1t%C3%A9rt%C3%A9kek%20%C3%A9s%20a%20saj%C3%A1tvektorok%20kond%C3%ADcion%C3%A1lts%C3%A1ga.pdf)
+13. [LR transzformáció](PDF/13%20LR%20transzform%C3%A1ci%C3%B3.pdf)
+14. [Lineáris egyenletrendszerek iterációs módszerei, a Jacobi iteráció](PDF/14%20Line%C3%A1ris%20egyenletrendszerek%20iter%C3%A1ci%C3%B3s%20m%C3%B3dszerei%2C%20a%20Jacobi%20iter%C3%A1ci%C3%B3.pdf)
+15. [Lineáris egyenletrendszerek iterációs módszerei konvergenciája](PDF/15%20Line%C3%A1ris%20egyenletrendszerek%20iter%C3%A1ci%C3%B3s%20m%C3%B3dszerei%20konvergenci%C3%A1ja.pdf)
+16. [A Gauss–Seidel iteráció, mátrixok reguláris szétvágásai](PDF/16%20A%20Gauss%E2%80%93Seidel%20iter%C3%A1ci%C3%B3%2C%20m%C3%A1trixok%20regul%C3%A1ris%20sz%C3%A9tv%C3%A1g%C3%A1sai.pdf)
+17. [Konjugált gradiens módszer](PDF/17%20Konjug%C3%A1lt%20gradiens%20m%C3%B3dszer.pdf)
+18. [Lineáris egyenletek iterációs módszerei a MATLAB-ban](PDF/18%20Line%C3%A1ris%20egyenletek%20iter%C3%A1ci%C3%B3s%20m%C3%B3dszerei%20a%20MATLAB-ban.pdf)
+19. [Polinomok zérushelyei, Horner-elrendezés, Ruffini-sorozat, iterált Horner-elrendezés](PDF/19%20Polinomok%20z%C3%A9rushelyei%2C%20Horner-elrendez%C3%A9s%2C%20Ruffini-sorozat%2C%20iter%C3%A1lt%20Horner-elrendez%C3%A9s.pdf)
+20. [Polinomok kezelése a MATLAB-ban](PDF/20%20Polinomok%20kezel%C3%A9se%20a%20MATLAB-ban.pdf)
+21. [Függvényközelítések, Lagrange-interpoláció](PDF/21%20F%C3%BCggv%C3%A9nyk%C3%B6zel%C3%ADt%C3%A9sek%2C%20Lagrange-interpol%C3%A1ci%C3%B3.pdf)
+22. [A Lagrange-interpoláció hibája, interpoláció a MATLAB-ban](PDF/22%20A%20Lagrange-interpol%C3%A1ci%C3%B3%20hib%C3%A1ja%2C%20interpol%C3%A1ci%C3%B3%20a%20MATLAB-ban.pdf)
+23. [Newton-módszer, szelőmódszer, húrmódszer](PDF/23%20Newton-m%C3%B3dszer%2C%20szel%C5%91m%C3%B3dszer%2C%20h%C3%BArm%C3%B3dszer.pdf)
+24. [Legkisebb négyzetek módszere](PDF/24%20Legkisebb%20n%C3%A9gyzetek%20m%C3%B3dszere.pdf)
+25. [Spline-közelítés, megvalósítása a MATLAB-ban](PDF/25%20Spline-k%C3%B6zel%C3%ADt%C3%A9s%2C%20megval%C3%B3s%C3%ADt%C3%A1sa%20a%20MATLAB-ban.pdf)
+26. [Numerikus integrálás, kvadratúra-formulák](PDF/26%20Numerikus%20integr%C3%A1l%C3%A1s%2C%20kvadrat%C3%BAra-formul%C3%A1k.pdf)
+27. [Interpolációs kvadratúra-formulák, ezek hibája](PDF/27%20Interpol%C3%A1ci%C3%B3s%20kvadrat%C3%BAra-formul%C3%A1k%2C%20ezek%20hib%C3%A1ja.pdf)
+28. [Véges differenciák, Newton-Cotes formulák](PDF/28%20V%C3%A9ges%20differenci%C3%A1k%2C%20Newton-Cotes%20formul%C3%A1k.pdf)
+29. [Numerikus integrálás a MATLAB-ban](PDF/29%20Numerikus%20integr%C3%A1l%C3%A1s%20a%20MATLAB-ban.pdf)
